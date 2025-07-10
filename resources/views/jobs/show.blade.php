@@ -1,10 +1,8 @@
 <x-layout>
-  <x-slot:heading>
+<x-slot:heading>
   job title
 </x-slot:heading>
-
-
-  <x-slot:src>
+<x-slot:src>
   src="https://i.pinimg.com/736x/7c/a8/c0/7ca8c0194f4be96a9442ec56b4c7c8a5.jpg"
 </x-slot:src>
  {{ $job['title'] }} : pay {{ $job['pay'] }}
