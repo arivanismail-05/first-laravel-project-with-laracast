@@ -7,7 +7,9 @@
 </x-slot:src>
  {{ $job->title }} : pay {{ $job->pay }}
 
+@can('edit',$job)
+   <x-button href="/jobs/{{ $job->id }}/edit">Edit Job</x-button>
 
+@endcan
 
- <x-button href="/jobs/{{ $job->id }}/edit">Edit Job</x-button>
 </x-layout>
