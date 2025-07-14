@@ -6,6 +6,7 @@ use App\Http\Controllers\SessionController;
 
 use Illuminate\Support\Facades\Route;
 
+
 Route::view('/','welcome');
 Route::view('/contact','contact');
 
